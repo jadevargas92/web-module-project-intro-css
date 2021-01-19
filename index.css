@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* This is all of a CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Start of Jade's CSS */
+
+html {
+  /* Best Practice and makes everything start at 10px. Now 
+    I can use 1rem and it will be 10px
+    */
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header nav menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+  width: 75%;
+}
+
+footer nav menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 100%;
+
+  background-color: #f9e7dc;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar-buttons {
+  /* display: inline-block; */
+  list-style-type: none;
+  padding: 4rem 0;
+}
+
+button {
+  border: 0;
+  color: white;
+  border-radius: 20px;
+  font-size: 2.5rem;
+  font-family: 'Roboto Mono', monospace;
+  padding: 3%;
+  height: 100%;
+}
+
+.plan-your-visit {
+  background-color: #ff764e;
+}
+
+.learn-about-the-park {
+  background-color: #5ed3eb;
+}
+
+.get-involved {
+  background-color: #ffcd69;
+}
+
+footer img {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section.main-section {
+  height: 20%;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.main-section aside {
+  height: 100%;
+  width: 25%;
+  text-align: center;
+
+  float: left;
+}
+
+.main-section aside img {
+  border-radius: 50%;
+  height: auto;
+  width: 80%;
+  background-size: contain;
+}
+
+section.main-section section {
+  width: 70%;
+  height: auto;
+  float: right;
+}
+
+section.main-section section h1 {
+  font-size: 5rem;
+  font-family: 'Chelsea Market', cursive;
+  text-align: center;
+  padding: 2rem;
+}
+
+section.main-section section p {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  margin: 2rem auto;
+}
+
+section.second-section {
+  width: 90%;
+  background-color: #ddb9a3;
+  color: white;
+  font-weight: bold;
+  margin: 3rem auto;
+}
+
+section.second-section p {
+  padding: 2rem;
+  text-align: center;
+}
+
+section.image-text-section {
+  width: 20%;
+  height: 10%;
+  margin: 2rem auto;
+}
+
+section.image-text-section img {
+  margin: auto;
+  height: auto;
+  display: block;
+  width: 50%;
+}
+
+section.image-text-section p {
+  /* font-weight: 500; */
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+span {
+  font-weight: bold;
+}
